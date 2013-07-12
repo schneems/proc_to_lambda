@@ -1,5 +1,7 @@
 ## Proc To Lambda
 
+[![Build Status](https://travis-ci.org/schneems/proc_to_lambda.png)](https://travis-ci.org/schneems/proc_to_lambda)
+
 Convert your procs to lambdas for all the Rubies.
 
 ## Why?
