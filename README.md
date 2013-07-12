@@ -72,10 +72,10 @@ end
 If you're risky you can extend the `Proc` class directly:
 
 ```ruby
-Proc.include(ProcToLambda)
+Proc.extend(ProcToLambda)
 ```
 
-Then you can call `Proc.to_lambda`:
+Then you can call `Proc#to_lambda`:
 
 ```ruby
 def bar(num, &block)

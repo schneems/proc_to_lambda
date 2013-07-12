@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'proc_to_lambda/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "resque_def"
+  gem.name          = "proc_to_lambda"
   gem.version       = ProcToLambda::VERSION
   gem.authors       = ["Richard Schneeman"]
   gem.email         = ["richard.schneeman+rubygems@gmail.com"]
